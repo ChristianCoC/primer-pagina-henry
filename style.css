@@ -1,0 +1,166 @@
+/*
+.color1 { #8fa1a0 }
+.color2 { #6c7d7c }
+.color3 { #485a58 }
+.color4 { #243635 }
+.color5 { #001211 }
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #001211;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #243635;
+    color: #ffffff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.noticias, .deportes {
+    color: #243635;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-top: #243635 solid 1px;
+    border-bottom: #243635 solid 1px;
+}
+
+#noticias, #deportes {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    gap: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    width: 50%;
+}
+
+article h3 {
+    font-size: 1.5rem;
+}
+
+article img {
+    width: 800px;
+    height: 500px;
+}
+
+.deportes-dos img {
+    height: 420px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    background-color: #243635;
+    color: #ffffff;
+}
+
+footer ul {
+    list-style: none;
+    gap: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8fa1a0;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacto a {
+    font-size: 1.5rem;
+}
+
+/* Formulario */
+
+.formulario {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: #243635 solid 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 20px;
+    width: fit-content;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+form input {
+    width: 200px;
+    height: 30px;
+    font-size: 1.1rem;
+}
+
+.boton {
+    font-size: 1.1rem;
+    background-color: #243635;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #8fa1a0;
+}
+
+.saludos {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    
+}
+
